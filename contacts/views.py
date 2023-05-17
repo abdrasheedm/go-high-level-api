@@ -43,8 +43,7 @@ def fetch_contacts(request):
                 update_url = f"{contacts_url}/{contact_id}"
                 payload = {
                     "customField" : {
-                        "id": field_id,
-                        "value": new_value
+                        field_id : new_value
                     }
                 }
 
